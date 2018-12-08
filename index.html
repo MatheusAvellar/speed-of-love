@@ -10,7 +10,7 @@
       box-sizing: border-box;
     }
     main {
-      width: 800px;
+      max-width: 800px;
       margin: auto;
       padding: 20px;
       font-family: "Roboto Slab", serif;
@@ -43,6 +43,7 @@
       color: #565656;
       border-left: 3px solid #a0a0a0;
       padding: 0 20px;
+      margin: 16px 55px;
     }
     mark {
       background-color: #b3ffff;
@@ -58,7 +59,11 @@
 </head>
 <body>
   <main>
-    <!-- https://twitter.com/i/status/1042230466479239168 -->
+    <!-- https://twitter.com/i/status/1042230466479239168
+      TODO:
+        Ally Kerr – The Sore Feet Song
+        Nine Inch Nails – Hurt
+        Wreckless Eric – Whole Wide World -->
     <ol>
       <li>
         <blockquote>
@@ -73,44 +78,81 @@
             [2017] @ <a href="https://youtu.be/e9r5hx47kxM?t=22">0:22</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/jump-up-super-star.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           Here, Higgins promises she'll <q>be there in a flash</q> and that she
-          can <q>zoom all the way to the Moon</q>. According to the
+          can <q>zoom all the way to the Moon</q>. According to the <cite>
           <a href="https://en.wikipedia.org/wiki/Moon">Wikipedia article on the
-          Moon</a>, the average distance between the Earth and the Moon is
-          <data>384,402 km</data>. According to the
+          Moon</a></cite>, the average distance between the Earth and the Moon
+          is <data>384,402 km</data>. According to the <cite>
           <a href="https://en.wikipedia.org/wiki/Flash_(photography)">Wikipedia
-          page for "flash"</a>, a camera flash usually lasts between
+          page for "flash"</a></cite>, a camera flash usually lasts between
           <data>1/1000</data> to <data>1/200</data> of a second. Being
           conservative, we can assume Higgins here refers to the slowest flash
           duration, <data>1/200</data> of a second. To get to the Moon in that
           time, she'd require a speed of <mark>276,771,211,336 km/h</mark>
           (that's almost 277 <em>billion</em> kilometers per hour), which is
-          roughly 256 times the speed of light in a vacuum.
+          roughly 256 times the speed of light in a vacuum
+          <data>(1,079,252,848.8 km/h)</data>.
         </p>
       </li>
       <li>
         <blockquote>
           <p>
             Don't get me wrong, but how are you going to get back home?<br/>
-            I'd be willing to walk that way<br/>
+            Oh, I'd be willing to walk that way<br/>
             There's something I've just got to say<br/>
             I could walk a million miles today
           </p>
           <cite>
             The Wedding Present - A Million Miles [1987] @
-            <a href="https://youtu.be/4tXzHKFaa3A?t=118">1:58</a>
+            <a href="https://youtu.be/4tXzHKFaa3A?t=105">1:45</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/a-million-miles.mp3" type="audio/mp3"/>
+        </audio>
         <p>
-          Assuming the vocalist, David Gedge, means that he is willing to walk a
-          million miles <data>(1,609,344 km)</data> during daytime, and using
-          the length of daytime given by the
-          <a href="https://en.wikipedia.org/wiki/Daytime">Wikipedia article on
-          Daytime</a> – set at 12 hours near the Equator – then Gedge would need
-          to be travelling at <mark>134,112 km/h</mark>, about 3 times Earth's
-          <a href="https://en.wikipedia.org/wiki/Escape_velocity">escape
-          velocity</a>.
+          We may assume the vocalist, David Gedge, means that he is willing to
+          walk a million miles <data>(1,609,344 km)</data> until the end of
+          daytime. According to the <cite>
+          <a href="https://en.wikipedia.org/wiki/Night">Wikipedia page on
+          "Night"</a></cite>, the night is <q>considered to start around
+          <data>8 pm</data></q>. Thus, if Gedge is singing at precisely midnight
+          that gives him <data>20 hours</data> to travel that distance. That
+          requires a speed of <mark>80,467.2 km/h</mark>, about twice Earth's
+          <cite><a href="https://en.wikipedia.org/wiki/Escape_velocity">escape
+          velocity</a></cite> <data>(40,270 km/h)</data>.
+        </p>
+      </li>
+      <li>
+        <blockquote>
+          <p>
+            I'll drive a million miles<br/>
+            To be with you tonight
+          </p>
+          <cite>
+            Wang Chung – Everybody Have Fun Tonight [1986] @
+            <a href="https://youtu.be/BoXu6QmxpJE?t=26">0:26</a>
+          </cite>
+        </blockquote>
+        <audio controls preload>
+          <source src="./res/everybody-have-fun-tonight.mp3" type="audio/mp3"/>
+        </audio>
+        <p>
+          In the song, Wang Chung promises to drive one million miles until
+          <q>tonight</q>. According to the <cite>
+          <a href="https://en.wikipedia.org/wiki/Night">Wikipedia page on "Night"
+          </a></cite>, the night is <q>considered to start around <data>8 pm
+          </data> and to last to about <data>4 am</data></q>. Thus, if they are
+          singing at one second past <data>4 am</data>, that would give them
+          <data>24 hours</data> to drive said thousand miles, requiring a speed
+          of at least <mark>67,056 km/h</mark>, which is roughly twice the
+          orbital speed of Saturn around the Sun <data>(34,848 km/h)</data>,
+          according to the <cite><a href="https://en.wikipedia.org/wiki/Saturn">
+          Wikipedia page on Saturn</a></cite>.
         </p>
       </li>
       <li>
@@ -124,6 +166,9 @@
             <a href="https://youtu.be/m5N9IHqqGcA?t=44">0:44</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/i-drove-all-night.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           To estimate a speed for Orbison in this song, we must first estabilish
           <em>where</em> he was "driving all night". The song
@@ -136,9 +181,9 @@
           lived most of their lives in California, USA. According to the
           <a href="https://en.wikipedia.org/wiki/Speed_limits_in_the_United_States">
           Wikipedia article on "Speed limits in the US"</a>, the speed limit on
-          an urban freeway is between <data>80–105 km/h.</data> Assuming Orbison
-          was very eager to reach his destination, we can place his top speed at
-          <mark>105 km/h</mark>.
+          an urban freeway in California is between <data>80–105 km/h.</data>
+          Assuming Orbison was very eager to reach his destination, we can place
+          his top speed at about <mark>105 km/h</mark>.
         </p>
       </li>
       <li>
@@ -152,15 +197,19 @@
             <a href="https://youtu.be/Cwkej79U3ek?t=71">1:11</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/a-thousand-miles.mp3" type="audio/mp3"/>
+        </audio>
         <p>
-          In the song, Carlton promises to walk <data>1,000 miles</data> (which
-          converts to <data>1,609.344 km)</data> until <q>tonight</q>. According
-          to the <cite><a href="https://en.wikipedia.org/wiki/Night">Wikipedia
-          page on "Night"</a></cite>, the night is <q>considered to start around
-          <data>8 pm</data> and to last to about <data>4 am</data></q>. Thus, if
-          Carlton is singing at precisely <data>4 am</data>, that would give her
-          <data>16 hours</data> to walk said thousand miles. Such feat would
-          require a speed of at least <mark>100.584 km/h</mark>.
+          Carlton promises to walk a thousand miles <data>(1,609.344 km)</data>
+          until <q>tonight</q>. Considering the night to <q>start around <data>
+          8 pm</data> and to last to about <data>4 am</data></q>, if Carlton is
+          singing at precisely <data>4 am</data> and one second, she has a full
+          <data>24 hours</data> to walk said miles. That puts her minimum speed
+          at <mark>67.056 km/h</mark>, which is nearly the top speed of a
+          Kangaroo <data>(70 km/h)</data>, according to the <cite>
+          <a href="https://en.wikipedia.org/wiki/Kangaroo">Wikipedia article on
+          the Kangaroo</a></cite>.
         </p>
       </li>
       <li>
@@ -175,6 +224,9 @@
             <a href="https://youtu.be/-C_3eYj-pOM?t=16">0:16</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/aint-no-mountain-high-enough.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           In this piece, Terrel suggests that regardless of distance, she will
           rush to reach whatever destination her lover currently is. However,
@@ -189,6 +241,9 @@
           </p>
           <cite>@ <a href="https://youtu.be/-C_3eYj-pOM?t=104">1:44</a></cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/aint-no-mountain-high-enough_B.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           Here, Gaye and Terrel promise that they will travel <q>as fast as [they]
           can</q>. The fastest manned aircraft was the
@@ -209,6 +264,37 @@
       <li>
         <blockquote>
           <p>
+            Well, I must've walked a hundred miles or more<br/>
+            I went to every store in town
+          </p>
+          <cite>
+            Buck Owens – Christmas Shopping [1968] @
+            <a href="https://youtu.be/J79ZsqxGhUc?t=80">1:20</a>
+          </cite>
+        </blockquote>
+        <audio controls preload>
+          <source src="./res/christmas-shopping.mp3" type="audio/mp3"/>
+        </audio>
+        <p>
+          Owens doesn't specify any time duration in the song, but we can assume
+          that, considering he went Christmas shopping, he must've walked while
+          stores were open. According to the <cite>
+          <a href="https://en.wikipedia.org/wiki/Shopping_hours">Wikipedia page
+          on "Shopping hours"</a></cite>, <q>typical store shopping hours</q> in
+          the US (Owen's home country) are <q>Monday - Saturday (<data>9:00 -
+          10:00</data> to <data>20:00 - 22:00</data>)</q>. If we consider
+          Owens started his walk at <data>9 am</data> and ended it at <data>10
+          pm</data>, that gives him a total of <data>13 hours</data> to walk his
+          alleged <data>100 miles</data> <data>(160.9344 km)</data>. That puts
+          his speed at around <mark>12.3796 km/h</mark>, or at about half the
+          speed of an elephant, according to the <cite>
+          <a href="https://en.wikipedia.org/wiki/Fastest_animals">Wikipedia
+          article on "Fastest animals"</a></cite>.
+        </p>
+      </li>
+      <li>
+        <blockquote>
+          <p>
             A thousand miles seems pretty far<br/>
             But they've got planes and trains and cars<br/>
             I'd walk to you if I had no other way
@@ -218,6 +304,9 @@
             <a href="https://youtu.be/h_m-BjrxmgI?t=122">2:02</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/hey-there-delilah.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           Unlike Carlton, here Plain White T's initially considers alternatives
           to walking, although eventually comitting to going by foot in case
@@ -231,6 +320,9 @@
           </p>
           <cite>@ <a href="https://youtu.be/h_m-BjrxmgI?t=159">2:39</a></cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/hey-there-delilah_B.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           Assuming it will take <data>2 years</data> for Plain White T's to cover
           the promised distance, that translates to a speed of approximately
@@ -252,13 +344,16 @@
             <a href="https://youtu.be/2GRtFC8nTag?t=79">1:19</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/wherever-you-are.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           Here, 5 Seconds of Summer say they are willing to <q>fly a thousand
           oceans</q>. The greatest stretch of ocean on Earth is on the Pacific
           Ocean, measuring about <data>19,800 km</data>, from Indonesia to the
           coast of Colombia, according to the
           <a href="https://en.wikipedia.org/wiki/Pacific_Ocean">Wikipedia article
-          on the Pacific Ocean</a>. Therefore, they'd fly about
+          on the Pacific Ocean</a>. Therefore, they promise to fly at most about
           <data>19,800,000 km</data>, or roughly 14 times the diameter of the Sun.
         </p>
         <p>
@@ -279,22 +374,25 @@
           </p>
           <cite>@ <a href="https://youtu.be/2GRtFC8nTag?t=45">0:45</a></cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/wherever-you-are_B.mp3" type="audio/mp3"/>
+        </audio>
       </li>
       <li>
         <blockquote>
           <p>
             I'm going away<br/>
             But I'll be back<br/>
-            Though I go 10,000 miles<br/>
-            10,000 miles<br/>
-            My own true love<br/>
-            10,000 miles or more
+            Though I go 10,000 miles
           </p>
           <cite>
             Mary Chapin Carpenter – 10,000 Miles [1999] @
             <a href="https://youtu.be/YwjIFk2vlrc?t=46">0:46</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/10000-miles.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           In this song, Carpenter promises to, presumably, walk an astonishing
           10 thousand miles (which translates to <data>16,093.44 km</data>,
@@ -317,6 +415,9 @@
             <a href="https://youtu.be/tbNlMtqrYS0?t=36">0:36</a>
           </cite>
         </blockquote>
+        <audio controls preload>
+          <source src="./res/im-gonna-be.mp3" type="audio/mp3"/>
+        </audio>
         <p>
           The Proclaimers here claim that they would walk <data>500 miles</data>
           <data>(804.672 km)</data>, and then another <data>500 miles</data> –
