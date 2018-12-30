@@ -90,7 +90,7 @@
           return createElementBackup.bind(document)(...args)
         const tweet = document.getElementById("twitter-widget-0");
         if(tweet) tweet.style.margin = "10px auto";
-        return null;
+        return createElementBackup.bind(document)("div");
       }
     </script>
     <blockquote data-dnt="true" class="twitter-tweet" data-lang="en">
