@@ -88,7 +88,8 @@
       document.createElement = function(...args) {
         if(args[0].toLowerCase() !== "iframe")
           return createElementBackup.bind(document)(...args)
-        document.getElementById("twitter-widget-0").style.margin = "10px auto";
+        const tweet = document.getElementById("twitter-widget-0");
+        if(tweet) tweet.style.margin = "10px auto";
         return null;
       }
     </script>
