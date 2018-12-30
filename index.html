@@ -82,17 +82,6 @@
       - Add a table of contents linking to each song
     -->
   <main>
-    <script type="text/javascript">
-      // Prevent twitter tracker (one of them?)
-      const createElementBackup = document.createElement;
-      document.createElement = function(...args) {
-        if(args[0].toLowerCase() !== "iframe")
-          return createElementBackup.bind(document)(...args)
-        const tweet = document.getElementById("twitter-widget-0");
-        if(tweet) tweet.style.margin = "10px auto";
-        return createElementBackup.bind(document)("div");
-      }
-    </script>
     <blockquote data-dnt="true" class="twitter-tweet" data-lang="en">
       <p lang="en" dir="ltr">
         The Proclaimers claim they would walk 500 miles, only offering 500 more
