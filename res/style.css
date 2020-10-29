@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+main,header {
+  max-width: 800px;
+  margin: auto;
+  padding: 1.25em;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+}
+header > :first-child {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin: 2em 0 0;
+  font-weight: normal;
+  font-size: 2em;
+}
+ol, ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 100px 0;
+  list-style: none;
+  position: relative;
+}
+li + li {
+  border-top: 1px solid #a0a0a0;
+}
+li::before {
+  font-size: 200%;
+  position: absolute;
+  margin-top: 10px;
+  color: #a0a0a0;
+  font-family: "Roboto", sans-serif;
+}
+ol li:first-of-type {
+  counter-reset: position;
+}
+ol li::before {
+  content: counter(position)".";
+  counter-increment: position;
+}
+ul li::before {
+  content: "🞱";
+}
+li blockquote {
+  color: #565656;
+  border-left: 3px solid #a0a0a0;
+  padding: 0 20px;
+  margin: 16px 55px;
+}
+li mark {
+  background-color: #b3ffff;
+  padding: 0 3px;
+}
+li mark, li data {
+  white-space: nowrap;
+}
+li a[href] {
+  background: linear-gradient(to bottom, #b3ffff 0%, #b3ffff 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+li a[href]:hover, li a[href]:focus {
+  background-size: 4px 50px;
+}
